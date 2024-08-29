@@ -1,0 +1,19 @@
+current directory: /Users/mfv-computer-0293/Code/ruby/Techday/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+/Users/mfv-computer-0293/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mfv-computer-0293/Code/ruby/Techday/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240829-51110-l2k78r sitelibdir\=./.gem.20240829-51110-l2k78r clean
+
+current directory: /Users/mfv-computer-0293/Code/ruby/Techday/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240829-51110-l2k78r sitelibdir\=./.gem.20240829-51110-l2k78r
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/mfv-computer-0293/Code/ruby/Techday/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240829-51110-l2k78r sitelibdir\=./.gem.20240829-51110-l2k78r install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20240829-51110-l2k78r/debug
+
+current directory: /Users/mfv-computer-0293/Code/ruby/Techday/vendor/bundle/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240829-51110-l2k78r sitelibdir\=./.gem.20240829-51110-l2k78r clean
