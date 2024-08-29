@@ -1,5 +1,0 @@
---with-mysql-lib=/opt/homebrew/opt/mysql/lib
---with-mysql-dir=/opt/homebrew/opt/mysql
---with-mysql-config=/opt/homebrew/opt/mysql/bin/mysql_config
- --with-mysql-include=/opt/homebrew/opt/mysql/include
---with-ldflags=-L/opt/homebrew/opt/openssl@1.1/lib
