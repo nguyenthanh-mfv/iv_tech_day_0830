@@ -1,43 +1,55 @@
 <h1>Available seat</h1>
 
-<div class="row">
-    <div class="col-md-6">
-        <!-- Filter -->
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Search">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button">Filter</button>
-            </div>
-        </div>
+<div class="row justify-content-end">
+  <div class="col-md-6">
+    <!-- Filter -->
+    <div class="input-group mb-3">
+      <select class="form-control mr-2" id="from-time">
+        <option value="">From Time</option>
+        <option value="9:00 AM">9:00 AM</option>
+        <option value="10:00 AM">10:00 AM</option>
+        <option value="11:00 AM">11:00 AM</option>
+        <!-- Add more options as needed -->
+      </select>
+      <select class="form-control ml-2" id="to-time">
+        <option value="">To Time</option>
+        <option value="12:00 PM">12:00 PM</option>
+        <option value="1:00 PM">1:00 PM</option>
+        <option value="2:00 PM">2:00 PM</option>
+        <!-- Add more options as needed -->
+      </select>
+      <div class="input-group-append ml-2">
+        <button class="btn btn-outline-secondary" type="button">Filter</button>
+      </div>
+      </div>
     </div>
+  </div>
+</div>
+
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <!-- Grid item 1 -->
-        <div class="card">
+  <% (1..10).each do |row| %>
+    <div class="row">
+      <% (1..6).each do |col| %>
+        <div class="col-md-2 mb-4">
+          <!-- Grid item <%= (row-1)*5 + col %> -->
+          <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Grid Item 1</h5>
-                <p class="card-text">Click me!</p>
+              <h5 class="card-title">Seat number <%= (row-1)*5 + col %></h5>
+              <p class="card-text">Status: <% status = ['Available', 'Booked'].sample %>
+                <% if status == 'Available' %>
+                  <span style="color: green;"><%= status %></span>
+                <% else %>
+                  <span style="color: red;"><%= status %></span>
+                <% end %>
+              </p>
             </div>
+          </div>
         </div>
+      <% end %>
     </div>
-    <div class="col-md-4">
-        <!-- Grid item 2 -->
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Grid Item 2</h5>
-                <p class="card-text">Click me!</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <!-- Grid item 3 -->
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Grid Item 3</h5>
-                <p class="card-text">Click me!</p>
-            </div>
-        </div>
-    </div>
+    <div class="row spacer"></div>
+    <div class="spacer"></div>
+  <% end %>
 </div>
