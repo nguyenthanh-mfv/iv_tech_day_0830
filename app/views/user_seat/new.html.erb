@@ -1,19 +1,13 @@
-<h1>Seat Booking</h1>
-<form>
-    <div class="input-group date">
-    <input type="text" class="form-control" value="12-02-2012">
-        <div class="input-group-addon">
-            <span class="glyphicon glyphicon-th"></span>
-        </div>
-    </div>
+<% content_for :title, "Booking" %>
 
-    <div class="input-group date">
-        <input type="text" class="form-control" value="12-02-2012">
-        <div class="input-group-addon">
-            <span class="glyphicon glyphicon-th"></span>
-        </div>
-    </div>
+<h1>Booking</h1>
 
-    <button type="submit">Submit</button>
-    <button type="button">Cancel</button>
-</form>
+<%= render "form", user_seat: @user_seat %>
+
+<br>
+
+<div>
+  <%= link_to "Back to Booking", user_seat_path %>
+</div>
+
+

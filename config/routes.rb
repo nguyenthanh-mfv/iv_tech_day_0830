@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_seats
   post "user_seat/create"
   post "user_seat/destroy"
   resources :seats

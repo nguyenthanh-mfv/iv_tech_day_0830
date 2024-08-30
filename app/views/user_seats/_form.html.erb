@@ -1,0 +1,27 @@
+<%= form_with(model: user_seat) do |form| %>
+  <% if user_seat.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(user_seat.errors.count, "error") %> prohibited this user_seat from being saved:</h2>
+
+      <ul>
+        <% user_seat.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :from, style: "display: block" %>
+    <%= form.datetime_field :from %>
+  </div>
+
+  <div>
+    <%= form.label :to, style: "display: block" %>
+    <%= form.datetime_field :to %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
