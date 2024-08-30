@@ -9,5 +9,5 @@
 #   end
 
 (1..50).each do |i|
-  Seat.find_or_create_by!(number: i)
+  Seat.find_or_create_by!(number: i, available: true)
 end
