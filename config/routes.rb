@@ -16,5 +16,5 @@ Rails.application.routes.draw do
   get "app" => "pwa#index"
 
   # Defines the root path route ("/")
-  root "dashboard#index"
+  root "seats#index"
 end
