@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "user_sear/create"
+  get "user_sear/destroy"
   resources :seats
   resources :users
   resources :departments
