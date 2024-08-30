@@ -1,4 +1,4 @@
-class SeatController < ApplicationController
+class SeatsController < ApplicationController
   def index
   end
 
