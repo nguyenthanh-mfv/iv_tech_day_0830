@@ -1,4 +1,4 @@
-class UserSearController < ApplicationController
+class UserSeatController < ApplicationController
   def create
     @user_seat = UserSeat.new(user_seat_params)
 
