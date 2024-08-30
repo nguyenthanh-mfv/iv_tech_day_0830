@@ -38,9 +38,9 @@
               <h5 class="card-title">Seat number <%= row.number %></h5>
               <p class="card-text">Status: <% status = ['Available', 'Booked'].sample %>
                 <% if @user_seat %>
-                  <span style="color: green;"><%= status %></span>
+                  <span style="color: red;">Booked</span>
                 <% else %>
-                  <span style="color: red;"><%= status %></span>
+                  <span style="color: green;">Available</span>
                 <% end %>
               </p>
             </div>
