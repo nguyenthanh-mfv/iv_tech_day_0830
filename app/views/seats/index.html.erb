@@ -1,5 +1,4 @@
 <h1>Available seat</h1>
-
 <div class="row justify-content-end">
   <div class="col-md-6">
     <!-- Filter -->
@@ -29,16 +28,16 @@
 </div>
 
 <div class="row">
-  <% (1..10).each do |row| %>
     <div class="row">
-      <% (1..6).each do |col| %>
+      <% @seats.each do |row| %>
+        <% @user_seat = @user_seats[row.id] %>
         <div class="col-md-2 mb-4">
-          <!-- Grid item <%= (row-1)*5 + col %> -->
+          <!-- Grid item <%= row.id %> -->
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Seat number <%= (row-1)*5 + col %></h5>
+              <h5 class="card-title">Seat number <%= row.number %></h5>
               <p class="card-text">Status: <% status = ['Available', 'Booked'].sample %>
-                <% if status == 'Available' %>
+                <% if @user_seat %>
                   <span style="color: green;"><%= status %></span>
                 <% else %>
                   <span style="color: red;"><%= status %></span>
@@ -51,5 +50,5 @@
     </div>
     <div class="row spacer"></div>
     <div class="spacer"></div>
-  <% end %>
+
 </div>
