@@ -60,3 +60,4 @@ gem "bootstrap", "~> 5.3"
 gem 'sassc-rails'
 
 gem 'webpacker'
+gem 'devise'
