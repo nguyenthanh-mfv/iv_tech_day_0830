@@ -455,38 +455,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (v10.4.19.0) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="autoprefixer-rails" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/autoprefixer-rails-10.4.19.0" />
-          <option name="version" value="10.4.19.0" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/autoprefixer-rails-10.4.19.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/autoprefixer-rails-10.4.19.0/vendor" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/autoprefixer-rails-10.4.19.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/autoprefixer-rails-10.4.19.0/vendor" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="bcrypt (v3.1.20) [path][gem]" type="rubylib">
         <properties>
           <option name="additionalInfo">
@@ -636,50 +604,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="bootstrap (v5.3.3) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="bootstrap" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3" />
-          <option name="version" value="5.3.3" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/tasks" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/assets" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/.github" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/tasks" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/assets" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/.github" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/tasks" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/assets" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/bootstrap-5.3.3/.github" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="brakeman (v6.2.1) [path][gem]" type="rubylib">
         <properties>
           <option name="additionalInfo">
@@ -790,6 +714,56 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/capybara-3.40.0/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="chunky_png (v1.4.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="chunky_png" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0" />
+          <option name="version" value="1.4.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/benchmarks" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/benchmarks" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/chunky_png-1.4.0/benchmarks" />
         </excluded>
       </library>
     </orderEntry>
@@ -1020,36 +994,6 @@
         <JAVADOC />
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/erubi-1.13.0/lib" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="execjs (v2.9.1) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="execjs" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/execjs-2.9.1" />
-          <option name="version" value="2.9.1" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/execjs-2.9.1/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/execjs-2.9.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1302,43 +1246,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jbuilder-2.12.0/test" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jbuilder-2.12.0/.github" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jbuilder-2.12.0/gemfiles" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="jquery-rails (v4.6.0) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="jquery-rails" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0" />
-          <option name="version" value="4.6.0" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/vendor" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/vendor" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/jquery-rails-4.6.0/test" />
         </excluded>
       </library>
     </orderEntry>
@@ -1958,41 +1865,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/parser-3.3.4.2/bin" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="popper_js (v2.11.8) [path][gem]" type="rubylib">
-        <properties>
-          <option name="additionalInfo">
-            <AdditionalInfo>
-              <option name="authors" value="N/A" />
-              <option name="email" value="N/A" />
-              <option name="homepage" value="N/A" />
-              <option name="summary" value="N/A" />
-            </AdditionalInfo>
-          </option>
-          <option name="fromPath" value="true" />
-          <option name="name" value="popper_js" />
-          <option name="requirePaths">
-            <list>
-              <option value="lib" />
-            </list>
-          </option>
-          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/popper_js-2.11.8" />
-          <option name="version" value="2.11.8" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/popper_js-2.11.8/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/popper_js-2.11.8/assets" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/popper_js-2.11.8/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/popper_js-2.11.8/assets" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/popper_js-2.11.8/assets" />
         </excluded>
       </library>
     </orderEntry>
@@ -2638,6 +2510,85 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rexml-3.3.6/doc" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rqrcode (v2.2.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rqrcode" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0" />
+          <option name="version" value="2.2.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/images" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/images" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/images" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode-2.2.0/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rqrcode_core (v1.2.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="rqrcode_core" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0" />
+          <option name="version" value="1.2.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.3.0/gems/rqrcode_core-1.2.0/.github" />
         </excluded>
       </library>
     </orderEntry>
@@ -3969,11 +3920,6 @@
               <RakeTaskImpl description="Load asset compile environment" fullCommand="assets:environment" id="environment" />
               <RakeTaskImpl description="Compile all the assets named in config.assets.precompile" fullCommand="assets:precompile" id="precompile" />
               <RakeTaskImpl description="" fullCommand="assets:clean" id="clean" />
-            </subtasks>
-          </RakeTaskImpl>
-          <RakeTaskImpl id="autoprefixer">
-            <subtasks>
-              <RakeTaskImpl description="Show selected browsers and prefixed CSS properties and values" fullCommand="autoprefixer:info" id="info" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl id="cache_digests">
