@@ -56,14 +56,14 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "bootstrap", "~> 5.3"
-gem 'sassc-rails'
+# gem "bootstrap", "~> 5.3"
+gem "sassc-rails"
 
-gem 'webpacker'
-gem 'devise'
+gem "webpacker"
+gem "devise"
 
-gem 'jquery-rails'
+# gem "jquery-rails"
 
-gem 'popper_js', '~> 2.11.8'
+# gem 'popper_js', '~> 2.11.8'
 
-gem 'rqrcode'
+gem "rqrcode"
