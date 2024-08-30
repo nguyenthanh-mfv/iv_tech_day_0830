@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
   post "user_seat/create"
   post "user_seat/destroy"
-  resources :seats
   resources :user_seat
+  resources :seats do
+    member do
+      get 'update_availability'
+    end
+  end
   resources :users
   resources :departments
   devise_for :users

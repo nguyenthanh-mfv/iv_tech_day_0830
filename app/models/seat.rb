@@ -3,10 +3,13 @@ class Seat < ApplicationRecord
 
   has_many :user_seats
 
-  private
+  def qr_code_path
+    "/qr_codes/seat_#{self.id}.png"
+  end
 
   def generate_qr_code
-    qrcode = RQRCode::QRCode.new("Seat ID: #{self.id}")
+    url = Rails.application.routes.url_helpers.update_availability_seat_url(self.id, host: 'http://localhost:3000')
+    qrcode = RQRCode::QRCode.new(url)
 
     # Save the QR code as a PNG file
     png = qrcode.as_png(
