@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  as :user do
+    get "signin" => "devise/sessions#new"
+    post "signin" => "devise/sessions#create"
+    delete "signout" => "devise/sessions#destroy"
+  end
+
   resources :user_seats
   post "user_seat/create"
   post "user_seat/destroy"
