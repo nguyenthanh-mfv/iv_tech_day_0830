@@ -1,28 +1,27 @@
 <h1>Available seat</h1>
 <div class="row justify-content-end">
-  <div class="col-md-6">
-    <!-- Filter -->
-    <div class="input-group mb-3">
-      <select class="form-control mr-2" id="from-time">
-        <option value="">From Time</option>
-        <option value="9:00 AM">9:00 AM</option>
-        <option value="10:00 AM">10:00 AM</option>
-        <option value="11:00 AM">11:00 AM</option>
-        <!-- Add more options as needed -->
-      </select>
-      <select class="form-control ml-2" id="to-time">
-        <option value="">To Time</option>
-        <option value="12:00 PM">12:00 PM</option>
-        <option value="1:00 PM">1:00 PM</option>
-        <option value="2:00 PM">2:00 PM</option>
-        <!-- Add more options as needed -->
-      </select>
-      <div class="input-group-append ml-2">
-        <button class="btn btn-outline-secondary" type="button">Filter</button>
-      </div>
+  <div class="col-md-4">
+    <div class="input-group date">
+      <input type="text" class="form-control" value="12-02-2012">
+      <div class="input-group-addon">
+        <span class="glyphicon glyphicon-th"></span>
       </div>
     </div>
   </div>
+  <div class="col-md-4">
+    <div class="input-group date">
+      <input type="text" class="form-control" value="12-02-2012">
+      <div class="input-group-addon">
+        <span class="glyphicon glyphicon-th"></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="input-group-append ml-2">
+      <%= submit_tag "Filter", class: "btn btn-outline-secondary" %>
+    </div>
+  </div>
+
 </div>
 
 </div>
@@ -50,5 +49,5 @@
     </div>
     <div class="row spacer"></div>
     <div class="spacer"></div>
-
 </div>
+
