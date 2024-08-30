@@ -65,3 +65,5 @@ gem 'devise'
 gem 'jquery-rails'
 
 gem 'popper_js', '~> 2.11.8'
+
+gem 'rqrcode'
