@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_08_30_062755) do
+ActiveRecord::Schema[7.2].define(version: 2024_08_30_065733) do
   create_table "departments", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at", null: false
@@ -21,13 +21,20 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_30_062755) do
     t.integer "number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "from"
+    t.datetime "to"
+    t.integer "row"
+    t.integer "column"
+    t.boolean "available"
   end
 
   create_table "user_seats", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.bigint "seat_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "user_id", null: false
     t.index ["seat_id"], name: "index_user_seats_on_seat_id"
+    t.index ["user_id"], name: "index_user_seats_on_user_id"
   end
 
   create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
@@ -45,4 +52,5 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_30_062755) do
   end
 
   add_foreign_key "user_seats", "seats"
+  add_foreign_key "user_seats", "users"
 end
