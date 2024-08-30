@@ -18,7 +18,8 @@
     <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="container">
+    <%= render "layouts/navbar" %>
     <%= yield %>
   </body>
 </html>
