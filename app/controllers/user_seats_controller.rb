@@ -13,7 +13,7 @@ class UserSeatsController < ApplicationController
   # GET /user_seats/new
   def new
     @seat = Seat.find(params[:seat_id])
-    @user_seat = UserSeat.new(seat: @seat)
+    @user_seat = UserSeat.new(user: current_user, seat: @seat)
   end
 
   # GET /user_seats/1/edit
@@ -66,6 +66,6 @@ class UserSeatsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_seat_params
-      params.require(:user_seat).permit(:from, :to)
+      params.require(:user_seat).permit(:seat_id, :from, :to)
     end
 end
