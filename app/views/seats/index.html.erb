@@ -28,32 +28,28 @@
 </div>
 
 <div class="row">
-    <div class="row">
-      <% @seats.each do |row| %>
-        <% @user_seat = @user_seats[row.id] %>
-        <div class="col-md-2 mb-4">
-          <!-- Grid item <%= row.id %> -->
-
-          <div class="card" data-bs-toggle="modal" data-bs-target="#booking-modal">
-            <div class="card-body">
-              <h5 class="card-title">Seat number <%= row.number %></h5>
-              <p class="card-text">Status: <% status = ['Available', 'Booked'].sample %>
-                <% if @user_seat %>
-                  <span style="color: red;">Booked</span>
-                <% else %>
-                  <span style="color: green;">Available</span>
-                <% end %>
-              </p>
-              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#booking-modal">Book</button>
-            </div>
-          </div>
+  <% @seats.each do |row| %>
+    <% @user_seat = @user_seats[row.id] %>
+    <div class="col-md-2 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Seat number <%= row.number %></h5>
+          <p class="card-text">Status: <% status = ['Available', 'Booked'].sample %>
+            <% if @user_seat %>
+              <span style="color: red;">Booked</span>
+            <% else %>
+              <span style="color: green;">Available</span>
+            <% end %>
+          </p>
+          <a href="/user_seat/new?seat_id=<%= row.id %>">
+            Book this seat
+          </a>
         </div>
-      <% end %>
+      </div>
     </div>
-    <div class="row spacer"></div>
-    <div class="spacer"></div>
+  <% end %>
 </div>
-<div class="modal" tabindex="-1" id="booking-modal">
+<div class="modal" tabindex="-1" id="bookingmodal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">

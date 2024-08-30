@@ -1,5 +1,12 @@
 class UserSeatController < ApplicationController
+  def new
+    Rails.logger.debug "Checkpoint: Inside new method"
+    @seat = Seat.find(params[:seat_id])
+    @user_seat = UserSeat.new(seat: @seat)
+  end
+
   def create
+    Rails.logger.debug "Checkpoint: Inside create method"
     @user_seat = UserSeat.new(user_seat_params)
 
     respond_to do |format|

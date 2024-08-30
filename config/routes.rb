@@ -2,9 +2,11 @@ Rails.application.routes.draw do
   post "user_seat/create"
   post "user_seat/destroy"
   resources :seats
+  resources :user_seat
   resources :users
   resources :departments
   devise_for :users
+
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
