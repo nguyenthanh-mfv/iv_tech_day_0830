@@ -6,6 +6,10 @@ class SeatsController < ApplicationController
     @user_seats = UserSeat.where(from: from..).index_by(&:seat_id)
   end
 
+  def show
+    @seat = Seat.find(params[:id])
+  end
+
   def create
   end
 
@@ -13,5 +17,13 @@ class SeatsController < ApplicationController
   end
 
   def delete
+  end
+
+  def update_availability
+    @seat = Seat.find(params[:id])
+    @seat.update(available: !@seat.available)
+
+    flash[:notice] = 'Seat availability updated'
+    redirect_to seat_path(@seat)
   end
 end
